@@ -1,0 +1,63 @@
+name: unilearn
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.7.2
+
+
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  speech_to_text: ^7.3.0
+  audioplayers: ^5.2.1
+  http: ^1.2.1
+  path_provider: ^2.1.3
+  permission_handler: ^11.3.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/unilearn_icon.png"
+  adaptive_icon_background: "#09051A"
+  adaptive_icon_foreground: "assets/logo/unilearn_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/planets/
+    - assets/logo/
+    - assets/audio/apollo/wake/
+    - assets/audio/apollo/mercury/
+    - assets/audio/apollo/venus/
+    - assets/audio/apollo/earth/
+    - assets/audio/apollo/mars/
+    - assets/audio/apollo/jupiter/
+    - assets/audio/apollo/saturn/
+    - assets/audio/apollo/uranus/
+    - assets/audio/apollo/neptune/
+    - assets/audio/apollo/pluto/
+    - assets/audio/apollo/shutdown/
+    - assets/audio/apollo/open_planet/
+    - assets/audio/apollo/close_planet/
+
+  fonts:
+    - family: JockeyOne
+      fonts:
+        - asset: assets/fonts/JockeyOne-Regular.ttf
